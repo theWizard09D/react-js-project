@@ -1,0 +1,58 @@
+#header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    width: 35px;
+    float: left;
+    animation-name: spin;
+    animation: app-logo-spin infinite 8s linear
+}
+.logo img{
+    height: 35px;
+}
+@keyframes app-logo-spin{
+    from{transform: scaleX(-1);}
+}
+.loginLogout, .bookMyShow{
+    float: right;
+}
+.padding10{
+    padding-right: 10px;
+}
+.modal{
+    top: '50%';
+    left: '50%';
+    right: 'auto';
+    bottom: 'auto';
+    margin-right: '-50%';
+    transform: 'translate(-50%, -50%)';
+}
+.alignCenter{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.mtop10{
+    margin-top: 10px !important;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+.formControlh{
+    margin-bottom: 16px;
+    width: 200px;
+}
